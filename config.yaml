@@ -31,3 +31,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: thuvien4k.com
+    name: thuvien4k.com
+    description: 'Kho phim của bạn'
+    url: 'https://thuvien4k.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
