@@ -15,15 +15,6 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: nhandev.com # unique identifier
-    name: nhandev.com
-    description: 'Personal blog' # default=empty
-    url: 'https://nhandev.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
   - id: fcode.biz
     name: fcode.biz
     description: 'Fshare code'
@@ -32,10 +23,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: thuvien4k.com
-    name: thuvien4k.com
-    description: 'Kho phim của bạn'
-    url: 'https://thuvien4k.com'
+  - id: fcode.vn
+    name: fcode.vn
+    description: 'Fcode Shop'
+    url: 'https://fcode.vn'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
